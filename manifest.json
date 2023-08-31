@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "zenmode",
+    "description": "Stay zen while using different apps. Removing all the noise",
+    "version": "1.0",
+    "icons": {
+        "16": "assets/gradient.png",
+        "32": "assets/gradient.png",
+        "48": "assets/gradient.png",
+        "128": "assets/gradient.png"
+    },
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "assets/gradient.png",
+            "32": "assets/gradient.png",
+            "48": "assets/gradient.png",
+            "128": "assets/gradient.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+F",
+                "mac": "Command+F"
+            }
+        }
+    }
+}
