@@ -1,0 +1,39 @@
+#header {
+  display: none !important;
+}
+
+.colab-left-pane-nib {
+  display: none !important;
+}
+
+.footer-links {
+  display: none !important;
+}
+
+body {
+  --colab-primary-surface-color: hsl(240, 5%, 9.8%);
+  --code-cell-background: hsl(240, 5%, 9.8%);
+  --colab-primary-text-color: hsl(220, 7%, 93.5%);
+  --colab-secondary-text-color: hsl(220, 7%, 70%);
+  --colab-editor-focus-color: hsl(240, 5%, 9.8%);
+  --colab-border-color: hsl(218, 6.5%, 22.1%);
+  --colab-icon-color: hsl(240, 5%, 9.8%);
+  --colab-tertiary-text-color: hsl(218, 5.3%, 51.5%);
+  --colab-secondary-surface-color: hsl(240, 6.9%, 11.4%);
+  --colab-divider-color: hsl(222, 6.6%, 19.4%);
+  --colab-highlighted-surface-color: hsl(240, 5%, 9.8%);
+}
+
+colab-cell-toolbar {
+  display: none !important;
+}
+
+.monaco-editor > * {
+  --vscode-editor-background: hsl(240, 5%, 9.8%) !important;
+  --vscode-foreground: hsl(220, 7%, 93.5%) !important;
+}
+
+.monaco-editor {
+  --vscode-editor-background: hsl(240, 5%, 9.8%) !important;
+  --vscode-foreground: hsl(220, 7%, 93.5%) !important;
+}
