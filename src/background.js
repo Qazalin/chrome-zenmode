@@ -27,6 +27,10 @@ const fileAppMap = {
     css: "youtube.css",
     js: "youtube.js",
   },
+  "https://github.com/": {
+      css: "github.css",
+    js: "github.js",
+  },
 };
 
 chrome.action.onClicked.addListener(async (tab) => {
