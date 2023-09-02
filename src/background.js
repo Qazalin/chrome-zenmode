@@ -55,7 +55,10 @@ chrome.action.onClicked.addListener(async (tab) => {
         target: { tabId: tab.id },
       });
     }
-      // TODO revert js?
+    if (files.js != null) {
+      // hack to revert the js
+      await chrome.tabs.reload(tab.id);
+    }
     return;
   }
 
