@@ -24,7 +24,6 @@ const fileAppMap = {
     css: "chrome.css",
   },
   "https://www.youtube.com": {
-    css: "youtube.css",
     js: "youtube.js",
   },
   "https://github.com/": {
