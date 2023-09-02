@@ -27,8 +27,8 @@
     "commands": {
         "_execute_action": {
             "suggested_key": {
-                "default": "Ctrl+F",
-                "mac": "Command+F"
+                "default": "Ctrl+E",
+                "mac": "Command+E"
             }
         }
     }
