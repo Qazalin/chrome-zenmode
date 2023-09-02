@@ -1,3 +1,6 @@
 .notion-topbar {
   display: none !important;
 }
+.notion-text-action-menu {
+  display: none !important;
+}
