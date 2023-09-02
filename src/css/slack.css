@@ -1,0 +1,30 @@
+.p-top_nav__help {
+  display: none !important;
+}
+.p-top_nav__history_menu {
+  display: none !important;
+}
+.p-workspace__sidebar {
+  display: none !important;
+}
+.p-top_nav {
+  display: none !important;
+}
+.p-resizer {
+  left: -8px !important;
+}
+.p-view_header_hover_card__container {
+  display: none !important;
+}
+.p-ia__view_header__sidebar_toggle_button {
+  display: none !important;
+}
+.c-texty_buttons {
+  display: none !important;
+}
+.p-bookmarks_bar {
+  display: none !important;
+}
+.c-wysiwyg_container__button--send_options {
+  display: none !important;
+}
