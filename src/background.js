@@ -31,6 +31,7 @@ const fileAppMap = {
     js: "github.js",
   },
   "https://chat.openai.com/": {
+      css: "chatgpt.css",
     js: "chatgpt.js",
   },
 };
