@@ -1,0 +1,15 @@
+#docs-chrome {
+  display: none !important;
+}
+#kix-horizontal-ruler {
+  display: none !important;
+}
+#kix-vertical-ruler {
+  display: none !important;
+}
+.left-sidebar-container-content {
+  display: none !important;
+}
+.docs-vertical-ruler-active-indicators {
+  display: none !important;
+}
