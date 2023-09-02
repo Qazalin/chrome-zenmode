@@ -4,3 +4,6 @@
 .notion-text-action-menu {
   display: none !important;
 }
+.notion-page-controls {
+  display: none !important;
+}
