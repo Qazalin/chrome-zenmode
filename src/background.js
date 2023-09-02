@@ -28,8 +28,11 @@ const fileAppMap = {
     js: "youtube.js",
   },
   "https://github.com/": {
-      css: "github.css",
+    css: "github.css",
     js: "github.js",
+  },
+  "https://chat.openai.com/": {
+    js: "chatgpt.js",
   },
 };
 
