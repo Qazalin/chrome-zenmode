@@ -17,3 +17,7 @@
 .buttons-uaqb-5 {
   display: none !important;
 }
+
+[id^="message-accessories"] {
+  display: none;
+}
