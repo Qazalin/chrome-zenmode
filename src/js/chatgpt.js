@@ -1,3 +1,13 @@
+var linkEls = new Array(3).fill(null).map(() => document.createElement("link"));
+linkEls[0].rel = "preconnect";
+linkEls[0].href = "https://fonts.googleapis.com";
+linkEls[1].rel = "preconnect";
+linkEls[1].href = "https://fonts.gstatic.com";
+// pick something that'll stand out if the code works
+linkEls[2].href = "https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap";
+linkEls[2].rel = "stylesheet";
+linkEls.forEach((linkElement) => document.head.appendChild(linkElement));
+
 const removeClasses = [
   "text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible",
   "relative pb-3 pt-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-[60px] md:pb-6 md:pt-3",

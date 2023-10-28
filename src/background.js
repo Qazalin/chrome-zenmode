@@ -67,11 +67,12 @@ chrome.action.onClicked.addListener(async (tab) => {
     }
     if (files.js != null) {
       // hack to revert the js
-      await chrome.tabs.reload(tab.id);
+       await chrome.tabs.reload(tab.id);
     }
     return;
   }
 
+  // always first inject js then css
   if (files.js != null) {
     console.log(`Injecting ${files.js} into ${tab.url}`);
     await chrome.scripting.executeScript({

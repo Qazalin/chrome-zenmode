@@ -1,3 +1,7 @@
+* {
+    font-family: 'Indie Flower', sans-serif !important;
+}
+
 .dark .dark\:bg-gray-800 {
   background-color: black !important;
 }
@@ -34,7 +38,7 @@ div[data-message-author-role="assistant"] {
 }
 
 .border-b {
-    border-bottom: 0px !important;
+  border-bottom: 0px !important;
 }
 
 p {
