@@ -86,3 +86,12 @@ chrome.action.onClicked.addListener(async (tab) => {
     });
   }
 });
+
+chrome.commands.onCommand.addListener((command) => {
+  if (command === "toggle") {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      const tab = tabs[0];
+      chrome.action.onClicked.dispatch(tab);
+    });
+  }
+});

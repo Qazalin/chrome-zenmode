@@ -25,11 +25,12 @@
         "scripting"
     ],
     "commands": {
-        "_execute_action": {
+        "toggle": {
             "suggested_key": {
-                "default": "Ctrl+E",
-                "mac": "Command+E"
-            }
+                "default": "Ctrl+Shift+E",
+                "mac": "Command+Shift+E"
+            },
+            "description": "toggle"
         }
     }
 }
