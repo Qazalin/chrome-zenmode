@@ -10,7 +10,12 @@ const removeClasses = [
   "relative z-20 flex min-h-[60px] flex-wrap items-center justify-between gap-3 border-b border-black/10 bg-white p-2 text-gray-500 dark:border-gray-900/50 dark:bg-gray-800 dark:text-gray-300" // top header
 ];
 
-for (const classes of removeClasses) document.querySelectorAll(`div[class='${classes}']`).forEach((div) => div.remove());
+for (const classes of removeClasses)  {
+
+    try {
+        document.querySelectorAll(`div[class='${classes}']`).forEach((div) => div.remove());
+    } catch (e) { console.log(e) }
+}
 
 const el2 = Array.from(document.querySelectorAll("div.h-6.w-6"));
 el2.forEach((div) => {
