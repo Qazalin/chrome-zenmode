@@ -17,7 +17,9 @@ const removeClasses = [
   "relative px-2 py-2 text-center text-xs text-gray-600 dark:text-gray-300 md:px-[60px]", // footer
   "relative p-1 rounded-sm h-9 w-9 text-white flex items-center justify-center", // gpt pfp
   "relative flex", // usr pfp
-  "relative z-20 flex min-h-[60px] flex-wrap items-center justify-between gap-3 border-b border-black/10 bg-white p-2 text-gray-500 dark:border-gray-900/50 dark:bg-gray-800 dark:text-gray-300" // top header
+  "relative z-20 flex min-h-[60px] flex-wrap items-center justify-between gap-3 border-b border-black/10 bg-white p-2 text-gray-500 dark:border-gray-900/50 dark:bg-gray-800 dark:text-gray-300", // top header
+ "gizmo-shadow-stroke flex h-6 w-6 items-center justify-center overflow-hidden rounded-full",
+"sticky top-0 flex items-center justify-between z-10 h-14 bg-white/95 p-2 font-semibold dark:bg-gray-800/90"
 ];
 
 for (const classes of removeClasses)  {
