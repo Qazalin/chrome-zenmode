@@ -21,3 +21,11 @@
 [id^="message-accessories"] {
   display: none;
 }
+
+[class^="membersWrap"] {
+  display: none;
+}
+
+[class^="typing"] {
+  display: none;
+}
